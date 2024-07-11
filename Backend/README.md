@@ -1,11 +1,12 @@
 # Hivo Todo app  (Backend)
+#### Server URL: *https://internship-assessment.onrender.com*
 
 #### I used these technologies :
 ![Static Badge](https://img.shields.io/badge/5.1.1-bcrypt-red)
 ![Static Badge](https://img.shields.io/badge/16.4.5-dotenv-yellow)
 ![Static Badge](https://img.shields.io/badge/4.19.2-express-blue)
 ![Static Badge](https://img.shields.io/badge/17.13.3-joi-sand)
-![Static Badge](https://img.shields.io/badge/4.0.2-joi-objectid-pink)
+![Static Badge](https://img.shields.io/badge/4.0.2-joi.objectid-pink)
 ![Static Badge](https://img.shields.io/badge/1.41.3-cloudinary-green)
 ![Static Badge](https://img.shields.io/badge/9.0.2-jsonwebtoken-purple)
 ![Static Badge](https://img.shields.io/badge/20.5.0-node-darkgreen)
@@ -17,7 +18,6 @@
 ![Static Badge](https://img.shields.io/badge/mongoose-8.5.0-white)
 
 
-#### This is the Backend part which is considered with Database and data manipulation
 
 # Modules
 
@@ -76,7 +76,7 @@
 
 #### 2.2 Task endPoints : 
 
-|pre-route||Endpoint|Method|Usage
+|pre-route|Endpoint|Method|Usage
 |----:|-------:|-----:|-----
 |/task|/getAllTasks|GET|allows user to get all his tasks in a specific date (used in calender)
 |/task|/getSpecificTasksType|GET|allows user to get all his tasks based on tasks type 
@@ -90,8 +90,6 @@
 # notes :
 
 #### all the services is full production using `onrender` cloud services
-#### Server URL: *https://internship-assessment.onrender.com*
-
 
 #### you can run the project using the following command : `npm start`
 
