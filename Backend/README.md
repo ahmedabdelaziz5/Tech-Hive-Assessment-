@@ -1,6 +1,4 @@
-# email-automation-system
-
-#### This was my third task on my internship @Asterisc Technocrat 
+# Hivo Todo app  (Backend)
 
 #### I used these technologies :
 ![Static Badge](https://img.shields.io/badge/5.1.1-bcrypt-red)
@@ -12,8 +10,8 @@
 ![Static Badge](https://img.shields.io/badge/9.0.2-jsonwebtoken-purple)
 ![Static Badge](https://img.shields.io/badge/20.5.0-node-darkgreen)
 ![Static Badge](https://img.shields.io/badge/3.1.4-nodemon-09c)
-![Static Badge](https://img.shields.io/badge/1.4.5-lts.1-multer-brown)
-![Static Badge](https://img.shields.io/badge/4.0.0-multer-storage-cloudinary-bronze)
+![Static Badge](https://img.shields.io/badge/1.4.5-multer-brown)
+![Static Badge](https://img.shields.io/badge/4.0.0-multer.storage.cloudinary-bronze)
 ![Static Badge](https://img.shields.io/badge/cors-2.8.5-0f3)
 ![Static Badge](https://img.shields.io/badge/nodemailer-6.9.14-orange)
 ![Static Badge](https://img.shields.io/badge/mongoose-8.5.0-white)
@@ -99,4 +97,4 @@
 
 #### all get requests has a pagination you can send page *( default = 1)* and limit *(default =10)* in the URL 
 
-#### you can find sample of .env file (use your credentials)
+#### you can find sample of *.env file* (use your credentials)
