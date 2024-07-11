@@ -89,10 +89,10 @@
 
 # notes :
 
-#### all the services is full production using `onrender` cloud services
+#### All the services is full production using `render` cloud services
 
-#### you can run the project using the following command : `npm start`
+#### You can run the project using the following command : `npm start`
 
-#### all get requests has a pagination you can send page *( default = 1)* and limit *(default =10)* in the URL 
+#### All get requests has a pagination you can send page *( default = 1)* and limit *(default = 10)* in the URL 
 
-#### you can find sample of *.env file* (use your credentials)
+#### You can find sample of `.env file` (use your credentials)
