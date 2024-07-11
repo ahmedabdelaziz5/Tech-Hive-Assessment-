@@ -42,18 +42,18 @@
 
 #### 1.2 User endPoints : 
 
-|Endpoint|Method|Usage
-|-------:|-----:|-----
-|/verifyAccount|GET|allows user to receive a verify his email after creating account
-|/getUserProfile|GET|allows user to see him own profile
-|/resendVerificationEmail|GET|allows user to ask for another verification email it the last email expired 
-|/signUp|POST|allows user to create an account 
-|/login|POST|allows user to sign in and login to his account  
-|/forgetPassword|POST|allows user to ask for a new password
-|/submitNewPassword|POST|allows the user to change his password if he forgot his password 
-|/changeProfileImage|POST|allows the user to change his profile image
-|/changePassword|PATCH|allows user to change his password inside his account 
-|/editProfile|PATCH|allows user to edit/update his profile 
+|pre-route|Endpoint|Method|Usage
+|----:|-------:|-----:|-----
+|/user|/verifyAccount|GET|allows user to receive a verify his email after creating account
+|/user|/getUserProfile|GET|allows user to see him own profile
+|/user|/resendVerificationEmail|GET|allows user to ask for another verification email it the last email expired 
+|/user|/signUp|POST|allows user to create an account 
+|/user|/login|POST|allows user to sign in and login to his account  
+|/user|/forgetPassword|POST|allows user to ask for a new password
+|/user|/submitNewPassword|POST|allows the user to change his password if he forgot his password 
+|/user|/changeProfileImage|POST|allows the user to change his profile image
+|/user|/changePassword|PATCH|allows user to change his password inside his account 
+|/user|/editProfile|PATCH|allows user to edit/update his profile 
 
 --------------------------------------------------------------------------------------
 
@@ -76,21 +76,21 @@
 
 #### 2.2 Task endPoints : 
 
-|Endpoint|Method|Usage
-|-------:|-----:|-----
-|/getAllTasks|GET|allows user to get all his tasks in a specific date (used in calender)
-|/getSpecificTasksType|GET|allows user to get all his tasks based on tasks type 
-|/addTask|POST|allows user to add any task
-|/editTask|PATCH|allows user to edit his tasks
-|/deleteTask|DELETE|allows user to delete any task
-|/deleteAllTasksType|DELETE|allows user to delete his tasks based on tasks status 
+|pre-route||Endpoint|Method|Usage
+|----:|-------:|-----:|-----
+|/task|/getAllTasks|GET|allows user to get all his tasks in a specific date (used in calender)
+|/task|/getSpecificTasksType|GET|allows user to get all his tasks based on tasks type 
+|/task|/addTask|POST|allows user to add any task
+|/task|/editTask|PATCH|allows user to edit his tasks
+|/task|/deleteTask|DELETE|allows user to delete any task
+|/task|/deleteAllTasksType|DELETE|allows user to delete his tasks based on tasks status 
  
 --------------------------------------------------------------------------------------
 
 # notes :
 
 #### all the services is full production using `onrender` cloud services
-#### Web instance URL: *https://internship-assessment.onrender.com*
+#### Server URL: *https://internship-assessment.onrender.com*
 
 
 #### you can run the project using the following command : `npm start`
