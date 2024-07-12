@@ -1,0 +1,25 @@
+.header {
+    font-size: var(--font-size-4500);
+    color: var(--secondary);
+    text-align: center;
+    font-weight: 500;
+    margin: 50px 0 20px 0;
+}
+
+.h2 {
+    font-size: var(--font-size-3000);
+    text-align: left;
+    margin: 10px 0;
+}
+
+@media (max-width:600px) {
+    .header {
+        font-size: var(--font-size-3000);
+        margin: 25px 0 10px 0;
+    }
+
+    .h2 {
+        font-size: var(--font-size-900);
+        margin: 8px 0;
+    }
+}

@@ -1,0 +1,24 @@
+.container {
+    margin-top: 35px;
+    position: relative;
+}
+
+.gender {
+    min-height: 34.5px;
+    background-color: var(--primary);
+    border: 1px solid var(--input-border);
+    border-radius: var(--border-radius-inputs);
+    justify-content: space-around;
+}
+
+.gender span {
+    font-size: var(--font-size-50);
+}
+
+.label {
+    color: var(--label);
+    font-size: var(--font-size-200);
+    font-weight: 500;
+    position: absolute;
+    top: -20px;
+}

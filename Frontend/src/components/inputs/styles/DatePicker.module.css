@@ -1,0 +1,67 @@
+.date {
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    border-radius: var(--border-radius-inputs);
+}
+
+.edit {
+    background-color: var(--chat-receive);
+}
+
+.date div {
+    padding-right: 2px;
+}
+
+.date button {
+    width: auto;
+    margin-right: 0 !important;
+}
+
+.date input {
+    height: 28.5px;
+    border-radius: var(--border-radius-inputs);
+}
+
+.date fieldset,
+.date fieldset:hover {
+    border: 1px solid var(--input-border);
+}
+
+.date svg {
+    fill: var(--header-text);
+    fill-opacity: 0.5;
+}
+
+.date fieldset {
+    border-radius: var(--border-radius-inputs);
+    top: 0;
+}
+
+.date fieldset legend {
+    display: none;
+}
+
+.date label {
+    color: var(--header-text);
+    position: absolute;
+    transform: none;
+    font-weight: 500;
+    top: -29.88px !important;
+}
+
+.date input {
+    margin: 0 !important;
+}
+
+@media (max-width:600px) {
+    .date {
+        margin-top: 40px;
+    }
+
+
+    .date label {
+        top: -24.88px !important;
+
+    }
+}

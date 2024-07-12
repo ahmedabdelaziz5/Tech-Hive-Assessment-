@@ -1,0 +1,37 @@
+.errorText {
+    color: var(--error);
+    font-size: var(--font-size-100);
+    margin: 0;
+}
+
+.borderError {
+    border-color: var(--error) !important;
+}
+
+.formError svg,
+.formError svg path {
+    color: var(--error) !important;
+    fill: var(--error) !important;
+    fill-opacity: 1;
+}
+
+.formError input,
+.formError fieldset,
+.formError textarea {
+    border-color: var(--error) !important;
+}
+
+.formError label {
+    color: var(--error) !important;
+}
+
+.errorContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.errorIcon {
+    margin-left: 2px;
+    margin-right: 2px;
+}

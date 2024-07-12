@@ -1,0 +1,85 @@
+.container {
+    height: 60px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--app-bar-border);
+    z-index: var(--layer-nav);
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-header);
+    margin-right: 30px;
+}
+
+.mainIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainIcons a {
+    width: 45px;
+    height: 45px;
+}
+
+.mainIcons svg {
+    height: 100%;
+}
+
+.mainIcons svg:hover {
+    fill: var(--secondary);
+}
+
+.rightIcons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo svg {
+    margin-left: -20px;
+}
+
+.popMenu {
+    display: none;
+}
+
+@media (max-width:900px) {
+    .container {
+        height: 55px;
+        padding: 0 20px;
+    }
+
+    .mainIcons a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo {
+        width: 110px;
+        height: 100%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .popMenu {
+        display: flex;
+    }
+}
+
+@media (max-width:600px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .logo svg {
+        margin-left: -15px;
+    }
+}

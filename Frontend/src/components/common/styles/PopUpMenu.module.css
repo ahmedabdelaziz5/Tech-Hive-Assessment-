@@ -1,0 +1,51 @@
+.menu {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: var(--border-radius-inputs);
+    background-color: var(--primary);
+    margin-top: 4px;
+    min-width: fit-content;
+    z-index: 5;
+}
+
+.menu li {
+    padding-left: 16px;
+    width: 100%;
+}
+
+.menu li,
+.menu a {
+    color: var(--text-header);
+}
+
+.menu li:hover {
+    color: var(--secondary);
+    background-color: var(--secondary-3);
+}
+
+.menu a:hover svg,
+.menu li:hover svg {
+    fill: var(--secondary);
+}
+
+.menu a:hover,
+.menu li:hover {
+    color: var(--secondary);
+    background-color: var(--secondary-3);
+}
+
+.noHover:hover {
+    color: var(--text-header) !important;
+    background-color: var(--primary) !important;
+    cursor: default;
+}
+
+.item p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+}
+
+.hoverStroke:hover svg {
+    stroke: var(--secondary);
+}

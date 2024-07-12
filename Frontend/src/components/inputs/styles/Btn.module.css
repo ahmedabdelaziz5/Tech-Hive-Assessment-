@@ -1,0 +1,19 @@
+.btn {
+    color: var(--primary);
+    background-color: var(--secondary);
+    border-radius: var(--border-radius-inputs);
+    text-transform: none;
+    box-shadow: none !important;
+    margin: 15px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+}
+
+.small {
+    padding-left: 30px;
+    padding-right: 30px;
+}

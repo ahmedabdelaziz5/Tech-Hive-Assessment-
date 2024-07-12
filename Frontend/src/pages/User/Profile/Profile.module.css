@@ -1,0 +1,247 @@
+.cover {
+    width: calc(100% - 60px);
+    border-radius: 15px;
+    background: linear-gradient(90deg,
+            rgba(3, 102, 102, 0.40) 0%,
+            rgba(3, 102, 102, 0.00) 151.87%);
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    margin: 0 30px 90px 30px;
+
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    bottom: -75px;
+    border-radius: 50%;
+    text-transform: none;
+    font-size: 50px;
+}
+
+
+/* for make ring on profile pic */
+.pic::after {
+    content: "";
+    width: calc(100% + 14px);
+    height: calc(100% + 14px);
+    background-color: var(--primary);
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.editIcon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.editIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+.editPicPop {
+    max-width: 220px !important;
+}
+
+.plusIcon {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.plusIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+.listIcon {
+    fill: var(--text-header);
+    width: 60%;
+    height: 60%;
+}
+
+.content {
+    padding: 0 37px 0 43px;
+}
+
+.content h6 {
+    margin: 0;
+    font-size: var(--font-size-600);
+    font-weight: 500;
+}
+
+.card {
+    padding: 20px;
+    background-color: var(--primary);
+    border-radius: var(--border-radius-150);
+    overflow: hidden;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+}
+
+.userData {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.userData h4 {
+    font-size: var(--font-size-800);
+    color: var(--text-header);
+    margin: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.userData p {
+    font-size: var(--font-size-600);
+    color: var(--text-paragraph);
+    margin: 5px 0;
+}
+
+.loading span {
+    position: absolute;
+    right: 0;
+}
+
+.skills :first-child {
+    margin-bottom: 0px;
+}
+
+.skills h6 {
+    margin-bottom: 10px !important;
+}
+
+.idContent span {
+    font-weight: 500;
+    font-size: var(--font-size-600);
+}
+
+.idContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 10px 5px 10px 20px !important;
+}
+
+.idContainer img {
+    width: 22px;
+
+}
+
+.idContent {
+    width: calc(100% - 45px);
+    font-size: var(--font-size-200);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.reportBtn {
+    padding: 6px 30px;
+    width: 180px;
+    width: max-content;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.reportBtn svg {
+    height: 18px;
+}
+
+.loading {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: var(--layer-100);
+    /* background-color: var(--primary); */
+    border-radius: 50%;
+}
+
+.loading::after {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.loading span {
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 9999;
+}
+
+.loading svg {
+    color: var(--secondary) !important;
+}
+
+@media (max-width:900px) {
+    .cover {
+        margin: 0 0px 90px 0px;
+        width: 100%;
+    }
+
+    .content {
+        padding: 0 13px;
+    }
+}
+
+@media (max-width:600px) {
+    .cover {
+        height: 150px;
+        margin-bottom: 80px;
+    }
+
+    .pic {
+        width: 130px;
+        height: 130px;
+        bottom: -60px;
+    }
+
+    .reportBtn svg {
+        height: 15px !important;
+    }
+
+    .reportBtn {
+        bottom: 0px !important;
+    }
+
+    .plusIcon {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width:425px) {
+    .pic {
+        width: 100px;
+        height: 100px;
+        bottom: -40px;
+    }
+
+    .plusIcon {
+        right: 0px;
+        bottom: 0px;
+    }
+}

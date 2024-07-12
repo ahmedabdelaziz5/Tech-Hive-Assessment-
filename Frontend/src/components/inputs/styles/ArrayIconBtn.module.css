@@ -1,0 +1,14 @@
+.arrayIconBtn {
+    width: 25px;
+    height: 25px;
+    margin-top: 40px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #036666 50%, rgba(20, 222, 222, 0.00) 258.33%);
+    cursor: pointer;
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+.arrayIconBtn svg {
+    width: 15px;
+}

@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    text-align: center;
+    height: 80px;
+}
+
+.container svg {
+    color: var(--secondary);
+}

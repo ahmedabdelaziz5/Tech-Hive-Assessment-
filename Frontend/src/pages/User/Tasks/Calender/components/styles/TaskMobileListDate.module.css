@@ -1,0 +1,13 @@
+.container {
+    padding: 8px 30px;
+    border-top: 1px solid var(--black-20);
+    border-bottom: 1px solid var(--black-20);
+    font-weight: 600;
+    font-size: var(--font-size-200);
+}
+
+@media (max-width:600px) {
+    .container {
+        padding: 5px 20px;
+    }
+}

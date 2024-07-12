@@ -1,0 +1,54 @@
+.container ul {
+    width: 300px;
+    max-width: calc(100vw - 32px);
+}
+
+.container a,
+.container li {
+    padding: 6px 16px !important;
+    font-size: var(--font-size-500) !important;
+    font-weight: 600;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        'Roboto',
+        'Oxygen',
+        'Ubuntu',
+        'Cantarell',
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+        text-overflow: ellipsis;
+}
+
+.icon {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-bg);
+    margin-right: 16px !important;
+}
+
+.icon svg {
+    width: 50% !important;
+    height: 50% !important;
+}
+
+/* for handle settings and edit profile and change password ui */
+.smItem {
+    display: none;
+}
+
+@media (max-width:425px) {
+    .bigItem {
+        display: none;
+    }
+
+    .smItem {
+        display: flex;
+    }
+}

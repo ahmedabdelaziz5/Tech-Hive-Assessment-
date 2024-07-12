@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: var(--margin-bottom);
+    font-size: var(--font-size-100);
+    margin-bottom: 20px;
+}
+
+.container a {
+    color: var(--secondary);
+    text-decoration: none;
+    margin-left: 5px;
+}

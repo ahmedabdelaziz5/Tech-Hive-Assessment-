@@ -1,0 +1,10 @@
+.toolbar {
+    margin-bottom: 40px;
+}
+
+.empty {
+    width: 400px;
+    max-width: 100%;
+    font-weight: 500 !important;
+    color: var(--black-40);
+}

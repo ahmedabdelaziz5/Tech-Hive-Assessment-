@@ -1,0 +1,178 @@
+.calender-desktop {
+    height: calc(1200px);
+    background-color: var(--primary);
+    border-radius: var(--border-radius-5);
+}
+
+.calender-toolbar {
+    padding: 15px 20px;
+    height: 60px;
+    position: relative;
+}
+
+.toolbar-actions-today {
+    width: fit-content;
+    padding: 8px;
+    position: absolute;
+    border-radius: var(--border-radius-inputs);
+    left: 20px;
+    font-size: var(--font-size-100);
+    font-weight: 600;
+    color: var(--secondary);
+    background-color: var(--secondary-10);
+}
+
+.toolbar-actions-container {
+    width: fit-content;
+    height: 100%;
+    margin: auto;
+}
+
+.toolbar-actions-btn {
+    background-color: var(--secondary-10);
+    padding: 6px 8px;
+    border-radius: var(--border-radius-5) !important;
+    margin: 0 !important;
+}
+
+.toolbar-actions-container svg {
+    width: 10px;
+    height: 15px;
+}
+
+.toolbar-actions-btn {
+    width: 27px !important;
+    height: 27px !important;
+}
+
+.right-triangle {
+    transform: rotate(180deg);
+}
+
+.toolbar-actions-container h1 {
+    margin: 0 10px;
+    font-size: var(--font-size-600);
+    color: var(--dark-grey);
+}
+
+.rbc-calendar div {
+    text-align: left !important;
+}
+
+.rbc-header {
+    text-transform: uppercase !important;
+    font-size: var(--font-size-200) !important;
+}
+
+.rbc-header,
+.rbc-button-link {
+    padding: 8px !important;
+    color: var(--date-cell) !important;
+    font-weight: 600;
+}
+
+.rbc-button-link {
+    font-size: var(--font-size-300) !important;
+}
+
+.rbc-month-view {
+    border-radius: 0 0 var(--border-radius-5) var(--border-radius-5) !important;
+}
+
+.rbc-today {
+    background-color: var(--primary) !important;
+}
+
+.rbc-now button {
+    background-color: var(--secondary) !important;
+    color: var(--primary) !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rbc-row-content {
+    height: 100%;
+}
+
+.rbc-event {
+    width: fit-content !important;
+    margin-bottom: 3px !important;
+    color: var(--todo) !important;
+    background-color: var(--todo-bg) !important;
+    font-weight: bold;
+    font-size: var(--font-size-100) !important;
+    max-width: calc(100% - 8px) !important;
+    overflow: hidden;
+}
+
+.rbc-event-content div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#inProgress div {
+    color: var(--in-progress) !important;
+    background-color: var(--in-progress-bg) !important;
+}
+
+#done div {
+    color: var(--done) !important;
+    background-color: var(--done-bg) !important;
+}
+
+.rbc-row-segment {
+    padding-left: 8px !important;
+}
+
+
+/* for make day number unClickable and when click as i click day(slot) */
+.rbc-button-link {
+    position: relative;
+    z-index: -1;
+}
+
+.rbc-selected-cell {
+    background-color: var(--primary) !important;
+}
+
+.rbc-row-content {
+    cursor: pointer;
+}
+
+.rbc-button-link.rbc-show-more {
+    position: absolute;
+    bottom: 0px;
+    font-weight: 500 !important;
+    color: var(--text-secondary) !important;
+}
+
+.rbc-off-range-bg {
+    background-color: var(--primary) !important;
+}
+
+.rbc-button-link {
+    color: var(--date-cell-current-month) !important;
+}
+
+.rbc-date-cell.rbc-off-range button {
+    color: var(--date-cell) !important;
+
+}
+
+.calender-mobile {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .calender-desktop {
+        display: none;
+    }
+
+    .calender-mobile {
+        display: block;
+    }
+}

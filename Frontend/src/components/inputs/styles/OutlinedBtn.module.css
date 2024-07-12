@@ -1,0 +1,9 @@
+.outlined {
+    color: var(--secondary);
+    background-color: var(--primary);
+    border-radius: var(--border-radius-inputs);
+    border: 2px solid var(--secondary);
+}
+.outlined:hover {
+    background-color: var(--primary);
+}

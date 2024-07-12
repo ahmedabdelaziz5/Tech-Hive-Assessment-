@@ -1,0 +1,20 @@
+.optionsBtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: var(--primary);
+    padding: 5px;
+    box-shadow: 0px 1px 2px 0px #00000020;
+
+}
+
+.optionsBtn svg {
+    transform: rotate(90deg);
+    fill: var(--text-header);
+    width: 15px;
+    height: 15px;
+}
+
+.popper {
+    z-index: var(--layer-popper);
+}

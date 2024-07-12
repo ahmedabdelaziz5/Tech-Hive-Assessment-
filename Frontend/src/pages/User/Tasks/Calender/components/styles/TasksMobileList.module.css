@@ -1,0 +1,50 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+.content {
+    background-color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.taskContainer {
+    padding: 0 30px;
+}
+
+.taskContainer>div:first-child {
+    width: calc(100% - 40px);
+    padding: 5px 20px;
+    margin-bottom: 0px;
+    background: none !important;
+}
+
+.taskContainer>div:first-child::before {
+    width: 4px;
+    height: calc(100% - 20px);
+}
+
+.taskBorderBottom>div:first-child {
+    border-bottom: 1px solid var(--black-20)
+}
+
+.empty {
+    font-weight: 500 !important;
+    color: var(--black-40);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.loading div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:600px) {
+    .taskContainer {
+        padding: 0 20px;
+    }
+}

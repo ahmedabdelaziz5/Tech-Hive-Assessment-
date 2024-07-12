@@ -1,0 +1,23 @@
+.chip {
+    margin-right: 4px !important;
+    margin-bottom: 4px !important;
+    border-radius: var(--border-radius-inputs);
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.chip span {
+    white-space: pre !important;
+}
+
+.chip svg {
+    width: 15px;
+    color: var(--primary) !important;
+    margin-left: 10px !important;
+}
+
+.disabled {
+    border: 1px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--secondary);
+}

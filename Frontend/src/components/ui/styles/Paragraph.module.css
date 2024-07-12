@@ -1,0 +1,11 @@
+.paragraph {
+    font-size: var(--font-size-300);
+    color: var(--text-paragraph);
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.left {
+    text-align: left;
+}

@@ -1,0 +1,25 @@
+.checkBoxContainer {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    margin-top: var(--margin-bottom);
+    margin-bottom: var(--margin-bottom);
+}
+
+.checkBox {
+    position: relative;
+    left: -10px;
+}
+
+.terms {
+    position: absolute;
+    left: 30px;
+    color: var(--input-text-color);
+    font-size: var(--font-size-small);
+}
+
+.terms a {
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 2px !important;
+}

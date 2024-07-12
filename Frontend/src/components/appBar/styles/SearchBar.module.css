@@ -1,0 +1,98 @@
+.bigSmContainer {
+    display: block;
+}
+
+.searchInput {
+    border: 1px solid var(--secondary-border);
+    border-radius: var(--border-radius-inputs);
+    padding: 1px 10px;
+    background-color: var(--primary);
+    width: 100%;
+}
+
+.searchInput input {
+    padding-left: 5px;
+    font-size: var(--font-size-200);
+    padding: 7px 0px;
+}
+
+.inputAdornment {
+    margin-right: 0;
+}
+
+
+.searchInput div::before,
+.searchInput div::after {
+    border-bottom: none !important;
+}
+
+.full {
+    width: calc(100vw - 120px) !important;
+}
+
+.popperContainer {
+    top: -51px !important;
+    left: 0px !important;
+    right: 0 !important;
+}
+
+.smContainerP {
+    width: 100vw !important;
+    height: 55px;
+    background-color: var(--primary);
+    align-items: center;
+    display: none;
+}
+
+.smContainer {
+    width: 270px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.openBtnSmSearch {
+    background-color: var(--chat-receive);
+    display: none;
+    border: 1px solid var(--black-10);
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    padding: 6px;
+}
+
+.openBtnSmSearch svg path {
+    fill: var(--text-paragraph) !important;
+}
+
+.backIcon {
+    width: 20px !important;
+}
+
+.backBtn {
+    margin-right: 10px;
+    margin-left: -8px;
+}
+
+@media (max-width:900px) {
+    .searchInput {
+        padding: 1px 10px;
+    }
+
+    .searchInput input {
+        font-size: var(--font-size-50);
+    }
+}
+
+@media (max-width:600px) {
+    .openBtnSmSearch {
+        display: flex;
+    }
+
+    .smContainerP {
+        display: flex;
+    }
+
+    .bigSmContainer {
+        display: none;
+    }
+}

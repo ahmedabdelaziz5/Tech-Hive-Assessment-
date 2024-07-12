@@ -1,0 +1,61 @@
+.event {
+    width: 400px;
+    max-width: 100%;
+    background-color: var(--todo-bg);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.event::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--todo);
+    border-radius: var(--border-radius-inputs);
+}
+
+.inProgress {
+    background-color: var(--in-progress-bg);
+}
+
+.inProgress::before {
+    background-color: var(--in-progress);
+}
+
+.done {
+    background-color: var(--done-bg);
+}
+
+.done::before {
+    background-color: var(--done);
+}
+
+.title {
+    color: var(--text-header) !important;
+    font-size: var(--font-size-200);
+    font-weight: 600;
+    text-align: left;
+    max-width: calc(100% - 100px);
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: calc(100% - 10px);
+    margin: 5px 0;
+}
+
+.dates span {
+    width: 100%;
+    text-align: right;
+    color: var(--black-40);
+    font-size: var(--font-size-100);
+    font-weight: 400;
+}

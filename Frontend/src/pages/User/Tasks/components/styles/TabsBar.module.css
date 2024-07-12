@@ -1,0 +1,14 @@
+.tabs {
+    padding: 0 20px;
+    border: 1px solid var(--stepper-bg);
+    border-radius: var(--border-radius-150);
+    background-color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.tabs a {
+    color: var(--text-paragraph) !important;
+    padding: 16px 8px;
+    min-width: 0;
+    margin-right: 20px;
+}

@@ -1,0 +1,26 @@
+.forgetPasswordContainer {
+    width: 100%;
+    text-align: right;
+    margin-top: 3px;
+}
+
+.forgetPasswordContainer a {
+    text-decoration: none;
+    font-size: var(--font-size-100);
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.divider::after,
+.divider::before {
+    border-top: 1px solid var(--divider);
+}
+
+.divider span {
+    color: var(--text-secondary);
+    font-weight: 700;
+}
+
+.divider {
+    margin-bottom: 10px;
+}

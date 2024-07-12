@@ -1,0 +1,60 @@
+.parent {
+    padding-bottom: 190px;
+}
+
+.container {
+    position: relative;
+    margin-top: 35px;
+    border-radius: var(--border-radius-inputs);
+    border: 1px solid var(--input-border);
+    max-width: calc(600px - 16px);
+}
+
+.content {
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.input {
+    font-size: var(--font-size-300);
+    position: relative;
+    flex-grow: 1;
+}
+
+.input input {
+    padding: 0px;
+}
+
+.rateContainer {
+    width: 200px;
+    padding: 10px 30px;
+    background-color: var(--primary);
+    border-radius: var(--border-radius-150);
+    background-color: var(--primary);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    position: absolute;
+    z-index: var(--layer-100);
+    font-weight: 500;
+    bottom: -200px;
+}
+
+.slider {
+    width: 60%;
+    color: var(--secondary);
+}
+
+.rateAction {
+    width: 100%;
+    text-align: center;
+}
+
+.rateAction button {
+    width: 60%;
+}

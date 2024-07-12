@@ -1,0 +1,18 @@
+.tabs {
+    background-color: var(--primary);
+    margin-bottom: 5px;
+    border-radius: var(--border-radius-150) var(--border-radius-150) var(--border-radius-5) var(--border-radius-5);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs a {
+    min-width: 0;
+}
+
+@media (max-width:425px) {
+    .tabs {
+        padding: 0;
+    }
+}
