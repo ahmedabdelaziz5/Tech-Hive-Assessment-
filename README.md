@@ -1,6 +1,6 @@
 # Hivo Todo app  
 
-*I am using a free instance for the backend server and as a result the server sleeps every 30min please click this link before you try the app to activate the server: `https://internship-assessment.onrender.com` *
+*I am using a free instance for the backend server and as a result the server sleeps every 30min please click this link before you try the app to activate the server: `https://internship-assessment.onrender.com`*
 
 
 #### You can try the app by following this link: *https://hivo.vercel.app/*
